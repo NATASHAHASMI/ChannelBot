@@ -20,12 +20,12 @@ if ENVIRONMENT:
         MUST_JOIN = MUST_JOIN.replace("@", "")
 else:
     # Fill the Values
-    API_ID = ... # api id here
-    OWNER_ID = ...
-    API_HASH = "Hash Here"
-    BOT_TOKEN = "TOKEN here"
-    DATABASE_URL = "Url here"
+    API_ID = 22556030 # api id here
+    OWNER_ID = 5837099475
+    API_HASH = "9f445a41203dc7d430f7c4f880e96c8a"
+    BOT_TOKEN = "6389119744:AAHnk-1s4jecRD0LrPxZW3kUN9pXRPwa5sI"
+    DATABASE_URL = "postgres://kjirmkdwfojicj:0098039db39a3ca99144622cd18e4b6bd15b5cefe6102021192560d7a0cea764@ec2-46-137-0-50.eu-west-1.compute.amazonaws.com:5432/dcsito1dmgpt2e"
     DATABASE_URL = DATABASE_URL.replace("postgres", "postgresql")
-    MUST_JOIN = "OldLostFriends" # must join channel link here
+    MUST_JOIN = "-1001779717901" # must join channel link here
     if MUST_JOIN.startswith("@"):
         MUST_JOIN = MUST_JOIN[1:]
