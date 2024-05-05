@@ -10,7 +10,7 @@ if ENVIRONMENT:
     except ValueError:
         raise Exception("Your API_ID is not a valid integer.")
     API_HASH = os.environ.get('API_HASH', None)
-    OWNER_ID = os.environ.get('OWNER_ID', 6258709129)
+    OWNER_ID = os.environ.get('OWNER_ID', 1843754190)
     BOT_TOKEN = os.environ.get('BOT_TOKEN', None)
     DATABASE_URL = os.environ.get('DATABASE_URL', None)
     DATABASE_URL = DATABASE_URL.replace("postgres", "postgresql")  # Sqlalchemy dropped support for "postgres" name.
@@ -20,10 +20,10 @@ if ENVIRONMENT:
         MUST_JOIN = MUST_JOIN.replace("@", "")
 else:
     # Fill the Values
-    API_ID = "22556030"
-    OWNER_ID = 5837099475
-    API_HASH = "9f445a41203dc7d430f7c4f880e96c8a"
-    BOT_TOKEN = "6389119744:AAHnk-1s4jecRD0LrPxZW3kUN9pXRPwa5sI"
-    DATABASE_URL = "postgres://kjirmkdwfojicj:0098039db39a3ca99144622cd18e4b6bd15b5cefe6102021192560d7a0cea764@ec2-46-137-0-50.eu-west-1.compute.amazonaws.com:5432/dcsito1dmgpt2e"
+    API_ID = 22427221
+    OWNER_ID = 1843754190 
+    API_HASH = "2785b4528c12682e515db3762463c126"
+    BOT_TOKEN = "6550852346:AAHN6R9CGY0lL8RN2SF-VP9aohp6vVXVS6M"
+    DATABASE_URL = "postgres://koyeb-adm:7yEXzg3wFtZK@ep-yellow-math-a2ziaq6n.eu-central-1.pg.koyeb.app/koyebdb"
     DATABASE_URL = DATABASE_URL.replace("postgres", "postgresql")
-    MUST_JOIN = "-1001779717901"
+    MUST_JOIN = "MYFLiiX"
